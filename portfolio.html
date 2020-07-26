@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+      <div class="container flexbox">
         <nav class="nav">
           <a href="./index.html" lang="en" rel="noopener noreferrer" class="page-title"><span class="web">Web</span><span> Studio</span></a>
           <ul class="list nav-list">
@@ -19,19 +20,23 @@
           </ul>
         </nav>
         <section class="header-contacts">
-            <div>
+          <div class="head-conts">
+            <div class="nav-mail">
                 <img src="./images/envelope.svg" alt="envelope">
                 <a class="header-contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
-            <div>
+            <div class="nav-phone">
                 <img src="./images/smartphone.svg" alt="smartphone">
                 <a class="header-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
             </div>
+          </div>
         </section>
+      </div>
     </header>
     <!-- main content -->
     <main>
-        <h1 hidden>Portfolio</h1>
+      <div class="container">
+        <h1 visually-hidden>Portfolio</h1>
         <!-- filter -->
         <section class="portfolio-button">
           <ul class="list">
@@ -102,10 +107,11 @@
             </li>
           </ul>
         </section>
-      </main>
+      </div>
+    </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer-content">
+      <div class="footer-content container">
           <div>
             <a href="./index.html" lang="en" rel="noopener noreferrer" class="page-title"><span class="web">Web</span><span class="logo-footer"> Studio</span></a>
               <address class="address">
