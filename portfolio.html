@@ -68,84 +68,103 @@
         <h1 class="visually-hidden">Portfolio</h1>
         <!-- filter -->
         <section class="portfolio-button">
-          <ul class="list">
-            <li>
-              <button class="portfolio-button-item">Приложения</button>
-            </li>
-            <li>
-              <button class="portfolio-button-item">Веб-сайты</button>
-            </li>
-            <li>
+          <ul class="list port-btn-list">
+            <li class="port-link">
               <button class="portfolio-button-item">Все</button>
             </li>
-            <li>
+            <li class="port-link">
+              <button class="portfolio-button-item">Веб-сайты</button>
+            </li>
+            <li class="port-link">
+              <button class="portfolio-button-item">Приложения</button>
+            </li>
+            <li class="port-link">
               <button class="portfolio-button-item">Дизайн</button>
             </li>
-            <li>
+            <li class="port-link">
               <button class="portfolio-button-item">Маркетинг</button>
             </li>
           </ul>
         </section>
         <!-- portfolio examples -->
         <section class="portfolio-examples">
-          <ul class="list">
+          <ul class="list port-ex-list">
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img1.png" alt="Технокряк" width:
               370px height: 294px />
-              <h2 class="portfolio-examples-title">Технокряк</h2>
-              <p class="portfolio-examples-text">Веб-сайт</p>
+              <div class="port-ex-descr">
+                <h2 class="portfolio-examples-title">Технокряк</h2>
+                <p class="portfolio-examples-text">Веб-сайт</p>
+              </div>
+
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img2.png" alt="Постер New Orlean vs
               Golden Star" width: 370px height: 294px />
-              <h2 class="portfolio-examples-title">
-                Постер New Orlean vs Golden Star
-              </h2>
-              <p class="portfolio-examples-text">Дизайн</p>
+              <div class="port-ex-descr">
+                <h2 class="portfolio-examples-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio-examples-text">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img3.png" alt="Ресторан Seafood"
               width: 370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Ресторан Seafood</h2>
               <p class="portfolio-examples-text">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img4.png" alt="Проект Prime" width:
               370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Проект Prime</h2>
               <p class="portfolio-examples-text">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img5.png" alt="Проект Boxes" width:
               370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Проект Boxes</h2>
               <p class="portfolio-examples-text">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img6.png" alt="Inspiration has no
               Borders" width: 370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">
                 Inspiration has no Borders
               </h2>
               <p class="portfolio-examples-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img7.png" alt="Издание Limited
               Edition" width: 370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Издание Limited Edition</h2>
               <p class="portfolio-examples-text">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img8.png" alt="Проект LAB" width:
               370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Проект LAB</h2>
               <p class="portfolio-examples-text">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-examples-item">
               <img src="./portfolio images/img9.png" alt="Growing Business"
               width: 370px height: 294px />
+              <div class="port-ex-descr">
               <h2 class="portfolio-examples-title">Growing Business</h2>
               <p class="portfolio-examples-text">Приложение</p>
+            </div>
             </li>
           </ul>
         </section>
@@ -159,7 +178,7 @@
             href="./index.html"
             lang="en"
             rel="noopener noreferrer"
-            class="page-title"
+            class="page-title footer-web-studio"
             ><span class="web">Web</span
             ><span class="logo-footer"> Studio</span></a
           >
@@ -228,11 +247,13 @@
         </div>
         <div class="mailing">
           <p class="footer-title">Подпишитесь на рассылку</p>
-          <textarea name="subscribe" id="#" cols="30" rows="1">E-mail</textarea>
-          <button class="btn-subscribe">
-            <span>Подписаться</span>
-            <img src="./images/icon-send.svg" alt="send" />
-          </button>
+          <div class="subscribe-cont">
+            <textarea class="textarea-subscr" name="subscribe" id="#" cols="30" rows="1">E-mail</textarea>
+            <button class="btn-subscribe">
+              <span class="subscr-text">Подписаться</span>
+              <img class="subscr-icon" src="./images/icon-send.svg" alt="send" />
+            </button>
+          </div>
         </div>
       </div>
     </footer>
