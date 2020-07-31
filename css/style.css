@@ -303,6 +303,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.clients-item:hover,
+.clients-item:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 
 /*footer*/
 .footer {
