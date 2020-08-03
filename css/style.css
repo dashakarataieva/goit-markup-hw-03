@@ -166,6 +166,9 @@ body {
 }
 
 /* preferences */
+.preferences {
+  padding-top: 95px;
+}
 .preferences-title {
   font-weight: 700;
   font-size: 14px;
@@ -185,7 +188,6 @@ body {
   display: flex;
 }
 .preferences-item {
-  padding-top: 95px;
   width: 270px;
 }
 .preferences-list .preferences-item + .preferences-item {
@@ -201,8 +203,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--dark-color);
 }
-.description-title {
+.description {
   padding-top: 95px;
+  padding-bottom: 94px;
 }
 
 .description-text {
@@ -227,9 +230,6 @@ body {
 }
 .description-list .description-item + .description-item {
   margin-left: 30px;
-}
-.description {
-  padding-bottom: 94px;
 }
 
 /* crew */
