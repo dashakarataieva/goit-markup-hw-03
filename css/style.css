@@ -128,13 +128,22 @@ body {
   margin-right: 30px;
 }
 
-/*studio*/
+/*hero*/
 .hero {
   background: var(--block-background);
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  max-width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(
+      to right,
+      var(--block-background),
+      var(--block-background)
+    ),
+    url("../images/Hero-img-optimized.jpg");
 }
 .main-title {
   font-weight: 900;
