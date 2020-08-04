@@ -184,6 +184,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark-color);
+  margin-top: 30px;
 }
 .preferences-text {
   font-weight: 400;
@@ -201,7 +202,28 @@ body {
 .preferences-list .preferences-item + .preferences-item {
   margin-left: 30px;
 }
-
+.preferences-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--light-grey);
+}
+.icon-anthenna::before {
+  background-image: url("../images/preferences/anthenna.svg");
+  background-position: center;
+}
+.icon-clock::before {
+  background-image: url("../images/preferences/clock.svg");
+}
+.icon-diagram::before {
+  background-image: url("../images/preferences/diagram.svg");
+}
+.icon-astronaut::before {
+  background-image: url("../images/preferences/astronaut.svg");
+}
 /* description */
 .block-title {
   font-weight: 700;
