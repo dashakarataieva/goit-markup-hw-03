@@ -37,21 +37,3 @@
   </symbol>
 </svg>
 
-<svg class="icon">
-  <use xlink:href="#fifthlogo"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="#firstlogo"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="#fourthlogo"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="#secondlogo"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="#sixthlogo"></use>
-</svg>
-<svg class="icon">
-  <use xlink:href="#thirdlogo"></use>
-</svg>
