@@ -210,10 +210,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--light-grey);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .icon-anthenna::before {
   background-image: url("../images/preferences/anthenna.svg");
-  background-position: center;
+  height: 70px;
 }
 .icon-clock::before {
   background-image: url("../images/preferences/clock.svg");
